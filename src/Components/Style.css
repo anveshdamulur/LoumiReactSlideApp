@@ -1,0 +1,92 @@
+.slide-container{
+  width: 95%;
+  margin:auto;
+  border-radius: 30%;
+}
+
+.main-container{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  float: right;
+  margin-left: 80px;
+  margin-right: 60px;
+}
+
+.container{
+  float: left;
+  justify-content: center;
+  background-color: antiquewhite;
+}
+
+.container h1{
+  text-align: center;
+}
+
+.person-info{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+  width: 100%;
+}
+
+.person-info img{
+  width: 50px;
+  border-radius: 50% 50%;
+  box-sizing: border-box;
+  margin-right: 25px;
+}
+
+.person-info-data{
+  margin: 0;
+}
+
+.person-info-data h2{
+  font-size: 25px;
+}
+
+.person-info-data h3{
+  border: 1px solid blue;
+  border-radius: 10px;
+  width: fit-content;
+  text-align: center;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.container-revenue p{
+  font-size: 25px;
+}
+
+.container-revenue-info{
+  display: flex;
+  flex-direction: column;
+  line-height: 0.3em;
+}
+
+.container-revenue-info .revenue-header{
+  display: flex;
+  justify-content: center;
+}
+
+.container-revenue-info .revenue-header p{
+  padding: 20px;
+  font-size: 20px;
+  margin-right: 5px;
+  margin-left: 2px;
+}
+
+.container-revenue-info .revenue-data{
+  display: flex;
+  justify-content: center;
+}
+
+.container-revenue-info .revenue-data p{
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: blue;
+  margin-right: 18px;
+  margin-left: 35px;
+}
