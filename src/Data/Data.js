@@ -1,7 +1,7 @@
 export const LoumiData = [
     [  
         {
-            title:'Colacation 4 persons',
+            title:'Colacation 4 pers',
             persons:[
                 {
                     img:'https://cdn1.vectorstock.com/i/1000x1000/90/35/avatar-men-design-vector-14499035.jpg',
@@ -21,7 +21,7 @@ export const LoumiData = [
     
         },
         {
-            title:'Colacation 4 persons',
+            title:'Colacation 4 pers',
             persons:[
                 {
                     img:'https://cdn1.vectorstock.com/i/1000x1000/90/35/avatar-men-design-vector-14499035.jpg',
@@ -41,7 +41,7 @@ export const LoumiData = [
 
         },
         {
-            title:'Colacation 4 persons',
+            title:'Colacation 4 pers',
             persons:[
                 {
                     img:'https://cdn1.vectorstock.com/i/1000x1000/90/35/avatar-men-design-vector-14499035.jpg',
@@ -62,7 +62,7 @@ export const LoumiData = [
     ],
     [
         {
-            title: 'Colacation 4 persons',
+            title: 'Colacation 4 pers',
             persons:[
                 {
                     img:'https://cdn1.vectorstock.com/i/1000x1000/90/35/avatar-men-design-vector-14499035.jpg',
@@ -81,7 +81,7 @@ export const LoumiData = [
             visiting :'visite du 19 mars at 10h45'   
         },
         {
-            title:'Colacation 4 persons',
+            title:'Colacation 4 pers',
             persons:[
                 {
                     img:'https://cdn1.vectorstock.com/i/1000x1000/90/35/avatar-men-design-vector-14499035.jpg',
@@ -100,7 +100,7 @@ export const LoumiData = [
             visiting :'visite du 19 mars at 10h45'    
         },
         {
-            title:'Colacation 4 persons',
+            title:'Colacation 4 pers',
             persons:[
                 {
                     img:'https://cdn1.vectorstock.com/i/1000x1000/90/35/avatar-men-design-vector-14499035.jpg',
