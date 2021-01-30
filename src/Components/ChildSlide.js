@@ -4,8 +4,9 @@ import {Card, Button } from 'react-bootstrap';
 export class ChildSlide extends Component {
     render() {
         return (
-                <Card style={{ width: '26rem', borderRadius:'20px' }}  className="text-center shadow-lg bg-white rounded">
-                <Card.Header style={{backgroundColor:'white',textDecoration:'none'}}><p style={{fontSize:'25px',fontWeight:'bold'}}>{this.props.title}...</p></Card.Header>
+                <div className="container-card">
+                <Card style={{marginLeft:'10px'}}  className="text-center bg-white">
+                <Card.Header><p style={{fontSize:'25px',fontWeight:'bold'}}>{this.props.title}...</p></Card.Header>
                 <Card.Body>
                     {this.props.persons.map((person,i)=>(
                             <Persons
@@ -29,10 +30,11 @@ export class ChildSlide extends Component {
                             </div>
                         </div>
                     </div>
-                <Button variant="primary" style={{width:'90%', height:'50px'}}>Voir plus</Button>
+                <Button variant="primary" style={{width:'95%', height:'50px', borderRadius:'10px'}}>Voir plus</Button>
                 </Card.Body>
-                <Card.Footer className="text-light bg-secondary rounded-bottom" style={{ width: '26rem' }}>{this.props.visit}</Card.Footer>
+                <Card.Footer className="text-light bg-secondary border-0 " style={{ borderRadius:'0px 0px 30px 30px' }}>{this.props.visit}</Card.Footer>
                  </Card>
+                 </div>  
         )
     }
 }

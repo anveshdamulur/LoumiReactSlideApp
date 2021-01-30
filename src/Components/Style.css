@@ -1,34 +1,38 @@
+
 .slide-container{
-  width: 95%;
-  margin:auto;
+  width: 70%;
+  margin: auto;
   border-radius: 30%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
 }
 
 .main-container{
-  margin-top: 80px;
-  display: flex;
-  flex-direction: row;
-  float: right;
-  margin-left: 80px;
-  margin-right: 60px;
-}
-
-.container{
+  width: 32%;
+  margin-left: 8px;
   float: left;
-  justify-content: center;
-  background-color: antiquewhite;
+  /* box-shadow: 2px 3px 3px gray; */
 }
-
-.container h1{
-  text-align: center;
+div .card-body{
+  margin:auto;
+  padding: 5px;
+  border: none;
 }
-
+div .card-header{
+  background: white;
+  padding: 0;
+  margin-top: 20px;
+  border: none;
+}
 .person-info{
-  display: flex;
+  display: flex ;
   flex-direction: row;
   align-items: center;
-  padding: 5px;
-  width: 100%;
+  padding: 2px;
+  margin: auto;
+  border: none;  
 }
 
 .person-info img{
@@ -55,14 +59,22 @@
   font-size: 15px;
 }
 
+.container-revenue {
+  margin-top: 50px;
+  width: auto;
+  
+}
 .container-revenue p{
-  font-size: 25px;
+  font-size: 24px;
+  display: inline-block;
+  padding: 2px;
 }
 
 .container-revenue-info{
   display: flex;
   flex-direction: column;
   line-height: 0.3em;
+
 }
 
 .container-revenue-info .revenue-header{
@@ -71,10 +83,10 @@
 }
 
 .container-revenue-info .revenue-header p{
-  padding: 20px;
+  padding: 5px;
   font-size: 20px;
-  margin-right: 5px;
-  margin-left: 2px;
+  margin-right: 19px;
+  margin-left: 15px;
 }
 
 .container-revenue-info .revenue-data{
