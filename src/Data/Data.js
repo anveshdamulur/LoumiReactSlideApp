@@ -50,7 +50,7 @@ export const LoumiData = [
                 },
                 {
                     img:'https://cdn1.vectorstock.com/i/1000x1000/90/35/avatar-men-design-vector-14499035.jpg',
-                    name: 'Albert Lincon ',
+                    name: 'Anvesh Damuluri',
                     profession: 'Profission liberale'
                 }
             ] ,
