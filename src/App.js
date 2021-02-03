@@ -1,6 +1,5 @@
 import React from 'react';
 import {SlideShow} from "./Components/SlideShow"
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (

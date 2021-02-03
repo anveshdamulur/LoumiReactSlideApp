@@ -1,106 +1,225 @@
-
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .slide-container{
-  width: 70%;
-  margin: auto;
-  border-radius: 30%;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  margin-top: 80px;
-  
+    width: 100%;
 }
-
 .main-container{
-  width: 32%;
-  margin-left: 8px;
-  float: left;
- 
-  /* box-shadow: 2px 3px 3px gray; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    align-items: center;
+    padding: 30px;
+    margin: auto;
 }
-div .card-body{
-  padding: 5px;
-  border: none;
-}
+@media screen and (max-width: 770px) {
+    .main-container {
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      padding: 10px;
+      bottom: 10px;
+    
+    }
+    .each-slide{
+        border: 2px solid gray;
+        text-align: center;
+        padding: 10px;
+        width: 60%;
+        margin-bottom: 20px;
+        box-shadow: 5px 10px 18px #888888;
 
-div .card-header{
-  background: white;
-  padding: 0;
-  margin-top: 20px;
-  border: none;
-}
-.person-info{
-  display: flex ;
-  flex-direction: row;
-  align-items: center;
-  padding: 2px;
-  margin: auto;
-  border: none;  
-}
+    }
+    .container-card{
+        width: 100%;
+        margin: auto;
+        padding: inherit;
+        border: none;
+      
+    }
+    .person-info .person h4{
+        font-size: 12px;
+        font-weight: bold;
+        border: 1px solid blue;
+        display: inline-block;
+        padding: 5px;
+        border-radius: 8px;
+    
+    }
 
-.person-info img{
-  width: 50px;
-  border-radius: 50% 50%;
-  box-sizing: border-box;
-  margin-right: 25px;
-}
+    .header{
+        font-size: 15px;
+        font-weight: bold;
+        padding: inherit;
+        margin-bottom: 20px;
+    }
+  } 
 
-.person-info-data{
-  margin: 0;
-}
+  @media screen and (min-width: 1440px) {
+    .main-container {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        padding: 10px;
+        bottom: 10px;
+      
+      }
+      .each-slide{
+        border: 2px solid gray;
+        text-align: center;
+        padding: 10px;
+        width: 30%;
+        margin-bottom: 20px;
+        box-shadow: 5px 10px 18px #888888;
 
-.person-info-data h2{
-  font-size: 21px;
-}
+    }   
+    div.person-info{
+        display: flex;
+        width: 90%;
+        height: 60px;
+        margin-left: 70px;
+    }
+    .revenue-body p{
+        color: rgb(66, 167, 245);
+        font-weight: bold;
+    }
+    .revenue-body .revenue-option h4, p{
+        font-size: 20px;
+    }
+    .revenue-body .revenue-prix h4, p{
+        font-size: 20px;
+    }
+    .person-info .person h3{
+        font-size: 22px;
+        font-weight: normal;
+    }
+    .person-info .person h4{
+        font-size: 15px;
+        font-weight: bold;
+        border: 1px solid #6161f6;  
+        display: inline-block;
+        padding: 5px;
+        border-radius: 8px;
+    
+    }
+  }
 
-.person-info-data h3{
-  border: 1px solid blue;
-  border-radius: 10px;
-  width: fit-content;
-  text-align: center;
-  padding: 5px;
-  font-size: 14px;
+.each-slide{
+    text-align: center;
+    padding: 15px;
+    border-radius:30px 30px;
+    margin-right: 30px;
+    box-shadow: 5px 10px 18px #888888;
+    /* border:1px solid red; */
+    width: 60%;
+}
+.container-card{
+    width: 100%;
+    margin: auto;
+    padding: inherit;
+    /* border: none; */
+}
+.container-card .header{
+    font-size: 25px;
+    font-weight: bold;
+    padding: inherit;
+    margin-bottom: 20px;
+}
+div.person-info{
+    display: flex;
+    width: 90%;
+    height: 60px;
+    margin-left: 15px;
+}
+.person-img img{
+    width: 50px;
+    margin:auto;
+    border-radius: 50%;
+    padding:6px;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+.person-info .person{
+  width: 100%;
+  text-align: start;
+  margin-top: 2px;
+
+}
+.person-info .person h3{
+    font-size: 18px;
+    font-weight: normal;
+}
+.person-info .person h4{
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid #6161f6;  
+    display: inline-block;
+    padding: 5px;
+    border-radius: 8px;
+
 }
 
 .container-revenue {
-  margin-top: 50px;
-  width: auto;
+    width: 100%;
+    margin-top: 30px;
+    /* border: 1px solid red; */
+}
+.container-revenue .revenue-header h2{
+    width: 100%;
+    font-size: 25px;
+   
+    /* border: 1px solid yellow; */
+}
+.revenue-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   
 }
-.container-revenue p{
-  font-size: 24px;
-  display: inline-block;
-  padding: 2px;
+.revenue-body p{
+    color: rgb(66, 167, 245);
+    font-weight: bold;
+    
+}
+.revenue-body .revenue-option h4, p{
+    font-size: 17px;
+}
+.revenue-body .revenue-prix h4, p{
+    font-size: 18px;
+}
+.container-revenue .revenue-button button{
+    display: block;
+    width: 90%;
+    margin: auto;
+    height: 45px;
+    text-decoration: none;
+    background-color:  rgb(66, 167, 245);
+    border-radius: 10px;
+    border: none;
+
 }
 
-.container-revenue-info{
-  display: flex;
-  flex-direction: column;
-  line-height: 0.3em;
-
+.container-revenue .revenue-button button h5{
+    color: white;
+    margin-top: 4px;
+    align-content: center;
+    font-size: 18px;
+}
+.footer{
+    display: block;
+    border: 1px solid gray;
+    margin: 20px -15px -15px -15px;
+    background-color:rgb(191, 187, 187);
+    border-radius: 0 0 30px 30px;
+    padding: 0;
+   
 }
 
-.container-revenue-info .revenue-header{
-  display: flex;
-  justify-content: center;
-}
-
-.container-revenue-info .revenue-header p{
-  padding: 5px;
-  font-size: 20px;
-  margin-right: 19px;
-  margin-left: 15px;
-}
-
-.container-revenue-info .revenue-data{
-  display: flex;
-  justify-content: center;
-}
-
-.container-revenue-info .revenue-data p{
-  padding: 5px;
-  font-size: 20px;
-  font-weight: bold;
-  color: blue;
-  margin-right: 18px;
-  margin-left: 35px;
+.footer p{
+    font-size: 15px;
+    margin-top: 10px;
+    color: white;
 }

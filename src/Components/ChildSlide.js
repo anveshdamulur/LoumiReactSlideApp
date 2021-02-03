@@ -1,40 +1,52 @@
 import React, { Component } from 'react'
 import Persons from './Persons'
-import {Card, Button } from 'react-bootstrap';
+
 export class ChildSlide extends Component {
     render() {
         return (
-                <div className="container-card">
-                <Card style={{marginLeft:'10px'}}  className="text-center bg-white">
-                <Card.Header><p style={{fontSize:'25px',fontWeight:'bold'}}>{this.props.title}...</p></Card.Header>
-                <Card.Body>
+        <>
+            <div className="container-card">
+                <div className='header'>
+                     {this.props.title}.
+                </div>
+                <div className='person-div' >
+                    <center>
                     {this.props.persons.map((person,i)=>(
-                            <Persons
-                                key={i}
-                                name= {person.name}
-                                img={person.img}
-                                prof ={person.profession}
-                            />
-                        ))
+                                <Persons
+                                    key={i}
+                                    name= {person.name}
+                                    img={person.img}
+                                    prof ={person.profession}
+                                />
+                            ))
                         } 
-                    <div className="container-revenue">
-                        <div className="container-revenue-info">
-                        <p>{this.props.revenue}</p> 
-                           <div className="revenue-header">
-                                <p>Candidates</p>
-                                <p>Grants</p>
-                           </div>
-                            <div className="revenue-data">
-                               <p>{this.props.candidates}</p>
-                             <p>{this.props.grants}</p>
-                            </div>
-                        </div>
+                    </center>
+                </div>
+            </div>
+            <div className='container-revenue'>
+                <div className='revenue-header'>
+                    <h2>{this.props.revenue}</h2>
+                </div>   
+                <div className='revenue-body'>
+                    <div className='revenue-option'>
+                        <h4>Candidats</h4>
+                        <p>{this.props.candidates}</p>
                     </div>
-                <Button variant="primary" style={{width:'95%', height:'50px', borderRadius:'10px'}}>Voir plus</Button>
-                </Card.Body>
-                <Card.Footer className="text-light bg-secondary border-0 " style={{ borderRadius:'0px 0px 30px 30px' }}>{this.props.visit}</Card.Footer>
-                 </Card>
-                 </div>  
+                    <div className='revenue-prix'>
+                        <h4>Grants</h4>
+                        <p>{this.props.grants}</p>
+                    </div>
+                </div>
+                <div className='revenue-button'>
+                <button>
+                    <h5>Voir plus</h5>
+                </button> 
+                </div> 
+            </div>
+            <div className='footer'>
+                    <p>{this.props.visit}</p>
+            </div>         
+        </>
         )
     }
 }

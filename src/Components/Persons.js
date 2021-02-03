@@ -1,19 +1,19 @@
 import React, { Component } from 'react'
-import { Card } from 'react-bootstrap';
 export default class Persons extends Component {
     render() {
         return (
-            <Card.Body>
-                <Card.Text className="person-info">
-                        <div className="person-info-image">
+               <>
+                    <div className='person-info'> 
+                        <div className='person-img'>
                                 <img src={this.props.img} alt=""/>
-                            </div>
-                        <div className="person-info-data">
-                            <h2>{this.props.name}</h2>
-                            <h3>{this.props.prof}</h3>
                         </div>
-                </Card.Text>
-            </Card.Body>
+                        <div className='person'>
+                            <h3>{this.props.name}</h3>
+                            <h4>{this.props.prof}</h4>
+                        </div>
+                    </div>
+                      
+            </>
         )
     }
 }

@@ -1,122 +1,122 @@
 export const LoumiData = [
     [  
         {
-            title:'Colacation 4 pers',
+            title:'Colocation 4 pers',
             persons:[
                 {
                     img:'https://cdn1.vectorstock.com/i/1000x1000/90/35/avatar-men-design-vector-14499035.jpg',
-                    name: 'Anvesh Damuluri',
+                    name: "J-C. L'Auberiviere",
                     profession: 'CDI'
                 },
                 {
                     img:'https://cdn1.vectorstock.com/i/1000x1000/90/35/avatar-men-design-vector-14499035.jpg',
-                    name: 'Anjaneyulu Kanaka',
+                    name: "J-C. L'Auberiviere",
                     profession: 'Profission liberale'
                 }
             ],
-            revenue: 'Revenue of the person',
-            candidats: '5206 $',
-            grants: '6700 $',
-            visiting :'visite du 19 mars at 10h45'
+            revenue: 'Revenu mensuel moyen',
+            Candidats: '5206 €',
+            Grants: '6700 €',
+            visiting :'visite du 19 mars a 10h45'
     
         },
         {
-            title:'Colacation 4 pers',
+            title:'Colocation 4 pers',
             persons:[
                 {
                     img:'https://cdn1.vectorstock.com/i/1000x1000/90/35/avatar-men-design-vector-14499035.jpg',
-                    name: 'Sai Chennareddy',
+                    name: "J-C. L'Auberiviere",
                     profession: 'CDI'
                 },
                 {
                     img:'https://cdn1.vectorstock.com/i/1000x1000/90/35/avatar-men-design-vector-14499035.jpg',
-                    name: 'Surya Edupuganti',
+                    name: "J-C. L'Auberiviere",
                     profession: 'Profission liberale'
                 }
             ],
-            revenue: 'Revenue of the person',
-            candidats: '5206 $',
-            grants: '6700 $',
-            visiting :'visite du 19 mars at 10h45'
+            revenue: 'Revenu mensuel moyen',
+            Candidats: '5206 €',
+            Grants: '6700 €',
+            visiting :'visite du 19 mars a 10h45'
 
         },
         {
-            title:'Colacation 4 pers',
+            title:'Colocation 4 pers',
             persons:[
                 {
                     img:'https://cdn1.vectorstock.com/i/1000x1000/90/35/avatar-men-design-vector-14499035.jpg',
-                    name: 'Sai kumar reddy',
+                    name: "J-C. L'Auberiviere",
                     profession: 'CDI'
                 },
                 {
                     img:'https://cdn1.vectorstock.com/i/1000x1000/90/35/avatar-men-design-vector-14499035.jpg',
-                    name: 'Anvesh Damuluri',
+                    name: "J-C. L'Auberiviere",
                     profession: 'Profission liberale'
                 }
             ] ,
-            revenue: 'Revenue of the person',
-            candidats: '5206 $',
-            grants: '6700 $',
-            visiting :'visite du 19 mars at 10h45'   
+            revenue: 'Revenu mensuel moyen',
+            Candidats: '5206 €',
+            Grants: '6700 €',
+            visiting :'visite du 19 mars a 10h45'   
         }
     ],
     [
         {
-            title: 'Colacation 4 pers',
+            title: 'Colocation 4 pers',
             persons:[
                 {
                     img:'https://cdn1.vectorstock.com/i/1000x1000/90/35/avatar-men-design-vector-14499035.jpg',
-                    name: 'Philippe Joseph',
+                    name: "J-C. L'Auberiviere",
                     profession: 'CDI'
                 },
                 {
                     img:'https://cdn1.vectorstock.com/i/1000x1000/90/35/avatar-men-design-vector-14499035.jpg',
-                    name: 'Clement Joseph',
-                    profession: 'CDI'
+                    name: "J-C. L'Auberiviere",
+                    profession: 'Profission liberale'
                 }
             ] ,
-            revenue: 'Revenue of the person',
-            candidats: '5206 $',
-            grants: '6700 $',
-            visiting :'visite du 19 mars at 10h45'   
+            revenue: 'Revenu mensuel moyen',
+            Candidats: '5206 €',
+            Grants: '6700 €',
+            visiting :'visite du 19 mars a 10h45'   
         },
         {
-            title:'Colacation 4 pers',
+            title:'Colocation 4 pers',
             persons:[
                 {
                     img:'https://cdn1.vectorstock.com/i/1000x1000/90/35/avatar-men-design-vector-14499035.jpg',
-                    name: 'Anvesh Damuluri',
+                    name: "J-C. L'Auberiviere",
                     profession: 'CDI'
                 },
                 {
                     img:'https://cdn1.vectorstock.com/i/1000x1000/90/35/avatar-men-design-vector-14499035.jpg',
-                    name: 'Anvesh Damuluri',
+                    name: "J-C. L'Auberiviere",
                     profession: 'Profission liberale'
                 }
             ],
-            revenue: 'Revenue of the person',
-            candidats: '5206 $',
-            grants: '6700 $',
-            visiting :'visite du 19 mars at 10h45'    
+            revenue: 'Revenu mensuel moyen',
+            Candidats: '5206 €',
+            Grants: '6700 €',
+            visiting :'visite du 19 mars a 10h45'    
         },
         {
-            title:'Colacation 4 pers',
+            title:'Colocation 4 pers',
             persons:[
                 {
                     img:'https://cdn1.vectorstock.com/i/1000x1000/90/35/avatar-men-design-vector-14499035.jpg',
-                    name: 'Satya Patibandla',
+                    name: "J-C. L'Auberiviere",
                     profession: 'CDI'
                 },
                 {
                     img:'https://cdn1.vectorstock.com/i/1000x1000/90/35/avatar-men-design-vector-14499035.jpg',
-                    name: 'Anvesh Damuluri',
-                    profession: 'CDI'
+                    name: "J-C. L'Auberiviere",
+                    profession: 'Profission liberale'
                 }
             ],
-            revenue: 'Revenue of the person',
-            candidats: '5206 $',
-            grants: '6700 $',
-            visiting :'visite du 19 mars at 10h45'    
+            revenue: 'Revenu mensuel moyen',
+            Candidats: '5206 €',
+            Grants: '6700 ',
+            visiting :'visite du 19 mars a 10h45'    
         }
     ]
 ];
